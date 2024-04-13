@@ -1,0 +1,271 @@
+body {
+    background-color: #EFEFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+body * {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.page {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 40px 0;
+    box-shadow: 0px 15px 45px 0px #181B790D;
+}
+
+.header {
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFEFFF;
+}
+
+.nav-link {
+    height: 44px;
+    border-radius: 9999px;
+    padding: 0 15px;
+    color: #62637b;
+    display: inline-flex;
+    align-items: center;
+    color: #202142;
+}
+
+.nav-link.active{
+   background-color: #F1F1FD;
+}
+
+.header .btn{
+    height: 54px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.header .btn-primery{
+    background-color: #202142;
+    color: #ffffff;
+}
+
+.search{
+    padding: 90px 0;
+}
+
+.search > *{
+     width: 650px;
+     margin: 0 auto;
+}
+
+.search h1, .search p{
+    text-align: center;
+}
+
+.search h1{
+    margin-bottom: 16px;
+}
+
+.search p{
+    margin-bottom: 38px;
+}
+
+.search-form{
+    background-color: #ffffff;
+    box-shadow: 0px 16px 35px -15px #02058426;
+    border: 1px solid #EFEFFF;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-form > div{
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.search-form > div:not(:last-child){
+    margin-right: 20px;
+}
+
+.search-form > div select{
+    appearance: none;
+    border: none;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    padding-right: 25px;
+}
+
+.search-form > div:first-child{
+    position: relative;
+    padding-left: 15px;
+    
+}
+
+.search-form > div:first-child .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    z-index: 0;
+}
+
+.search-form > div:last-child{
+    flex-grow: 1;
+    border-left: 1px solid #EFEFFF;
+    padding-left: 20px;
+}
+
+.search-form > div:last-child input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.search-form > div:last-child .icon{
+    margin-right: 10px;
+    color: #797b8a;
+}
+
+.section{
+    padding: 40px;
+}
+
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab{
+    background-color: #fcfcfe;
+    border: 1px solid #EFEFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 9999px;
+}
+
+.tab-link{
+    height: 50px;
+    padding: 0 30px;
+
+}
+
+.tab-link.active{
+    background-color: #ffffff;
+    border: 1px solid #EFEFFF;
+    border-radius: 9999px;
+}
+
+.category{
+    display: flex;
+}
+
+.category-link{
+    height: 44px;
+    padding: 0 15px;
+}
+
+.category-link.active{
+    background-color: #fcfcfc;
+    border: 1px solid #EFEFFF;
+    border-radius: 9999px;
+}
+
+.brend{
+  display: flex;
+}
+
+.brend > *:not(:last-child){
+    margin-right: 15px;
+}
+
+.brend-link{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+    border: 1px solid #EFEFFF;
+    border-radius: 50%;
+}
+
+.brend .brend-link.active{
+    border: 1px solid #fe6a95;
+}
+
+.section-body{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-body .item .foto img{
+    width: 100%;
+}
+
+.section-body .item .foto-content .foto{
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.section-body .item .foto-content{
+    position: relative;
+}
+
+.section-body .item .brend-link{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.section-body .item .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.section-body .item .inner div:last-child > *:not(:last-child){
+    margin-right: 20px;
+}
+
+.section-body .item .inner .foto{
+    width: 38px;
+    height: 38px;
+    margin-right: 14px;
+}
+
+.section-body .item .inner .foto p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.section-body .item .inner .foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-body .item .inner div:first-child{
+    display: flex;
+    align-items: center;
+}

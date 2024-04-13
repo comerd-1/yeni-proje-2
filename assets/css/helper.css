@@ -1,0 +1,62 @@
+.font-400{
+    font-weight: 400;
+}
+
+.font-600{
+    font-weight: 600;
+}
+
+.font-700{
+    font-weight: 700;
+}
+
+
+.f-size-16{
+    font-size: 16px;
+}
+
+.f-size-18{
+    font-size: 18px;
+}
+
+.f-size-22{
+    font-size: 22px;
+}
+
+
+.lh-20{
+   line-height: 20px;
+}
+
+.lh-24{
+   line-height: 24px;
+}
+
+.lh-27{
+   line-height: 27x;
+}
+
+.lh-33{
+   line-height: 33px;
+}
+
+.opacity{
+    opacity: 70%;
+}
+
+.opacity-1{
+    opacity: 60%;
+}
+
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-38{
+    margin-bottom: 38px;
+}
+
+.color{
+    color: #202142;
+}
